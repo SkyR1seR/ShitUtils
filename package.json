@@ -1,0 +1,11 @@
+{
+  "name": "com.senpap.shitutils",
+  "version": "1.0.0",
+  "displayName": "ShitUtils",
+  "description": "Simple utils for better life",
+  "unity": "2019.1",
+  "dependencies": {},
+  "author": {
+    "name": "Senpap"
+  }
+}

@@ -10,7 +10,7 @@ namespace ShitUtils
         private static List<DelayStruct> _delayList;
         private static List<FrameDelayStruct> _frameDelayList;
 
-        [RuntimeInitializeOnLoadMethod]
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         static void Init()
         {
             _delayList = new();
